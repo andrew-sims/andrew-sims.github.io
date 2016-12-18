@@ -7,7 +7,7 @@
             "sass.options": {
                 "outputDir": "../css/",
                 "includePaths": [],
-                "sourceComments": false,
+                "sourceComments": true,
                 "outputStyle": "nested"
             }
         }
