@@ -1,0 +1,252 @@
+//variables
+$font-baseline: 8px;
+$primary-color: #2a4fd1;
+$secondary-color: #5CB246;
+$blocky-font: 'Bowlby One',
+serif;
+$copy-font: 'Roboto',
+sans-serif;
+$screen-sm-min: 768px;
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-md-min: 992px;
+$screen-sm-max: ($screen-md-min - 1);
+$screen-lg-min: 1200px;
+$screen-md-max: ($screen-lg-min - 1);
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One|Roboto:300');
+* {
+    box-sizing: border-box;
+}
+body,
+html,
+section {
+    min-height: 100%;
+}
+body {
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+section {
+    position: relative;
+    min-height: 100vh;
+    padding: 7vw;
+}
+.intro-section {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    @media screen and (min-width: $screen-md-min) {
+        background-image: url(../images/intro-backround.png);
+        background-size: cover;
+    }
+    @media screen and (max-width: $screen-sm-max) {
+        background-image: url(../images/intro-backround-mobile.png);
+        background-size: cover;
+    }
+}
+.quote-section {
+    background-color: darken($secondary-color, 10%);
+    border-color: $secondary-color;
+}
+.main-copy {
+    margin: 0 auto 7vw auto;
+    @media screen and (max-width: $screen-sm-max) {
+        width: 100%;
+    }
+    @media screen and (max-width: $screen-xs-max) {
+        width: 100%;
+    }
+    @media screen and (min-width: $screen-sm-max) {
+        max-width: 1100px;
+    }
+    @media screen and (max-width: $screen-sm-max) {
+        margin-top: 14vw;
+    }
+}
+.big-quote {
+    width: 50%;
+    color: #ffffff;
+    @media screen and (max-width: $screen-sm-max) {
+        width: 86vw;
+        position: absolute;
+        bottom: 14vw;
+        left: 7vw;
+        margin-top: 14vw;
+    }
+    .quote {
+        font-family: $blocky-font;
+        @media screen and (max-width: $screen-sm-max) {
+            font-size: $font-baseline*6;
+        }
+        @media screen and (max-width: $screen-xs-max) {
+            font-size: $font-baseline*4;
+        }
+        @media screen and (min-width: $screen-sm-max) {
+            font-size: $font-baseline*8;
+        }
+        @media screen and (min-width: $screen-lg-min) {
+            font-size: $font-baseline*8;
+        }
+    }
+    .attribution {
+        font-family: $blocky-font;
+        font-size: $font-baseline*2;
+    }
+}
+.icon-bar {
+    padding-top: $font-baseline*3;
+    border-top: $font-baseline solid white;
+    border-color: inherit;
+    margin-top: $font-baseline*2;
+    .icons {
+        margin-right: $font-baseline*2;
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+.work {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    //Makes work a grid
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 0;
+    //makes a single column on mobile
+    @media screen and (max-width: $screen-xs-max) {
+        -webkit-box-orient: vertical;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    figure {
+        flex: 1;
+        margin: 0;
+        position: relative;
+        overflow: hidden;
+        min-width: 400px;
+        max-height: 600px;
+        @media screen and (max-width: $screen-xs-max) {
+            width: 100%;
+            height: auto;
+            max-width: auto;
+            min-width: auto;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+.contact-section {
+    background-color: darken($primary-color, 10%);
+    border-color: $primary-color;
+}
+.left {
+    margin-right: auto;
+}
+.right {
+    margin-left: auto;
+    @media screen and (max-width: $screen-xs-max) {
+        margin-left: 0;
+    }
+}
+.two-column {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    column-gap: 7vw;
+    @media screen and (max-width: $screen-xs-max) {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+.border-btm {
+    padding-bottom: $font-baseline*2;
+    border-bottom: $font-baseline solid white;
+    border-color: inherit;
+}
+.grey {
+    background-color: #f3f3f3;
+}
+.white {
+    color: #ffffff;
+}
+.blue {
+    border-color: $primary-color;
+}
+// Typography
+h1,
+h2,
+h3 {
+    font-family: $blocky-font;
+}
+h1 {
+    margin-bottom: $font-baseline*2;
+    @media screen and (max-width: $screen-sm-max) {
+        font-size: $font-baseline*6;
+    }
+    @media screen and (max-width: $screen-xs-max) {
+        font-size: $font-baseline*6;
+    }
+    @media screen and (min-width: $screen-sm-max) {
+        font-size: $font-baseline*8;
+    }
+}
+h2 {
+    max-width: 50%;
+    padding-bottom: $font-baseline*2;
+    border-bottom: $font-baseline solid $primary-color;
+    @media screen and (max-width: $screen-sm-max) {
+        font-size: $font-baseline*6;
+        margin-bottom: $font-baseline*3;
+    }
+    @media screen and (max-width: $screen-xs-max) {
+        font-size: $font-baseline*4;
+        margin-bottom: $font-baseline*3;
+    }
+    @media screen and (min-width: $screen-sm-max) {
+        font-size: $font-baseline*8;
+        margin-bottom: $font-baseline*6;
+    }
+    @media screen and (min-width: $screen-lg-min) {
+        font-size: $font-baseline*8;
+        margin-bottom: $font-baseline*6;
+    }
+}
+h3 {
+    font-size: $font-baseline*4;
+}
+p {
+    font-family: $copy-font;
+    line-height: 1.3;
+    margin-top: $font-baseline*3;
+    @media screen and (max-width: $screen-sm-max) {
+        font-size: $font-baseline*3;
+    }
+    @media screen and (max-width: $screen-xs-max) {
+        font-size: $font-baseline*3;
+    }
+    @media screen and (min-width: $screen-sm-max) {
+        font-size: $font-baseline*4;
+    }
+}
+li {
+    list-style: none;
+    font-family: $copy-font;
+    line-height: 1.3;
+    margin-top: $font-baseline*3;
+    font-size: $font-baseline*3;
+    padding-bottom: $font-baseline*2;
+    border-bottom: $font-baseline solid white;
+    border-color: inherit;
+}
+a {
+    :focus {
+        border: none;
+        outline: none;
+    }
+}
