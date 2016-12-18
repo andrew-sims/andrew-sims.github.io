@@ -24,22 +24,22 @@ section {
   padding: 7vw; }
 
 /* line 36, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-.intro-section {
+.section--intro {
   background-color: #2a4fd1;
   border-color: #2a4fd1; }
   @media screen and (min-width: 992px) {
     /* line 36, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-    .intro-section {
+    .section--intro {
       background-image: url(../images/intro-backround.jpg);
       background-size: cover; } }
   @media screen and (max-width: 991px) {
     /* line 36, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-    .intro-section {
+    .section--intro {
       background-image: url(../images/intro-backround-mobile.jpg);
       background-size: cover; } }
 
 /* line 48, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-.quote-section {
+.section--quote {
   background-color: #498d38;
   border-color: #5CB246; }
 
@@ -120,7 +120,7 @@ section {
       height: 30px; }
 
 /* line 116, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-.work {
+.section--work {
   background-color: #2a4fd1;
   border-color: #2a4fd1;
   margin: 0 0 0 0;
@@ -130,13 +130,13 @@ section {
   font-size: 0; }
   @media screen and (max-width: 767px) {
     /* line 116, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-    .work {
+    .section--work {
       -webkit-box-orient: vertical;
       -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column; } }
   /* line 132, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-  .work figure {
+  .section--work figure {
     flex: 1;
     margin: 0;
     position: relative;
@@ -145,18 +145,18 @@ section {
     max-height: 600px; }
     @media screen and (max-width: 767px) {
       /* line 132, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-      .work figure {
+      .section--work figure {
         width: 100%;
         height: auto;
         max-width: auto;
         min-width: auto; } }
     /* line 145, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-    .work figure img {
+    .section--work figure img {
       width: 100%;
       height: auto; }
 
 /* line 151, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-.contact-section {
+.section--contact {
   background-color: #213fa7;
   border-color: #2a4fd1; }
 

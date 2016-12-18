@@ -33,7 +33,7 @@ section {
     padding: 7%;
     padding: 7vw;
 }
-.intro-section {
+.section--intro {
     background-color: $primary-color;
     border-color: $primary-color;
     @media screen and (min-width: $screen-md-min) {
@@ -45,7 +45,7 @@ section {
         background-size: cover;
     }
 }
-.quote-section {
+.section--quote {
     background-color: darken($secondary-color, 10%);
     border-color: $secondary-color;
 }
@@ -113,7 +113,7 @@ section {
         }
     }
 }
-.work {
+.section--work {
     background-color: $primary-color;
     border-color: $primary-color;
     margin: 0 0 0 0;
@@ -148,7 +148,7 @@ section {
         }
     }
 }
-.contact-section {
+.section--contact {
     background-color: darken($primary-color, 10%);
     border-color: $primary-color;
 }
