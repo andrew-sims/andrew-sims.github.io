@@ -30,7 +30,7 @@ section {
   @media screen and (min-width: 992px) {
     /* line 36, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     .intro-section {
-      background-image: url(../images/intro-backround.png);
+      background-image: url(../images/grey.png);
       background-size: cover; } }
   @media screen and (max-width: 991px) {
     /* line 36, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */

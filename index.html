@@ -16,11 +16,19 @@
     <link rel="icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.lazyload.min.js">
+        $("section.lazy").lazyload({
+            effect: "fadeIn"
+        });
+
+    </script>
 </head>
 
 <body>
 
-    <section class="intro-section">
+    <section class="intro-section" data-original="">
         <div class="big-quote right blue">
             <div class="quote">I'm Andrew Sims a UI / UX designer living in London, UK.</div>
             <p>I'm currently at Funding Circle, working to reshape how businesses think about and access finance.</p>

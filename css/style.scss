@@ -37,7 +37,7 @@ section {
     background-color: $primary-color;
     border-color: $primary-color;
     @media screen and (min-width: $screen-md-min) {
-        background-image: url(../images/intro-backround.png);
+        background-image: url(../images/grey.png);
         background-size: cover;
     }
     @media screen and (max-width: $screen-sm-max) {
