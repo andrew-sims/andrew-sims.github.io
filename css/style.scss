@@ -2,6 +2,7 @@
 $font-baseline: 8px;
 $primary-color: #2a4fd1;
 $secondary-color: #5CB246;
+$dark-color: #424554;
 $blocky-font: 'Bowlby One',
 serif;
 $copy-font: 'Roboto',
@@ -50,8 +51,8 @@ section {
     border-color: $secondary-color;
 }
 .section--summary {
-    background-color: darken($secondary-color, 10%);
-    border-color: $secondary-color;
+    background-color: darken($dark-color, 10%);
+    border-color: $dark-color;
 }
 .main-copy {
     margin: 0 auto 0 auto;
