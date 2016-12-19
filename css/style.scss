@@ -49,14 +49,20 @@ section {
     background-color: darken($secondary-color, 10%);
     border-color: $secondary-color;
 }
+.section--summary {
+    background-color: darken($secondary-color, 10%);
+    border-color: $secondary-color;
+}
 .main-copy {
-    margin: 0 auto 7% auto;
-    margin: 0 auto 7vw auto;
+    margin: 0 auto 0 auto;
+    margin: 0 auto 0 auto;
     @media screen and (max-width: $screen-sm-max) {
         width: 100%;
+        margin: 0 auto 7vw auto;
     }
     @media screen and (max-width: $screen-xs-max) {
         width: 100%;
+        margin: 0 auto 7vw auto;
     }
     @media screen and (min-width: $screen-sm-max) {
         max-width: 1100px;
@@ -64,6 +70,43 @@ section {
     @media screen and (max-width: $screen-sm-max) {
         margin-top: 14%;
         margin-top: 14vw;
+    }
+}
+.summary-block {
+    display: flex;
+    flex-wrap: wrap;
+    .summary {
+        width: 33.333%;
+        margin-right: 7%;
+        margin-bottom: $font-baseline*6;
+        @media screen and (max-width: $screen-sm-max) {
+            width: 100%;
+            margin-right: 0;
+            border-bottom: 1px solid #cdcdcd;
+            padding-bottom: $font-baseline*6;
+        }
+        @media screen and (max-width: $screen-xs-max) {
+            width: 100%;
+            margin-right: 0;
+            border-bottom: 1px solid #cdcdcd;
+            padding-bottom: $font-baseline*6;
+        }
+    }
+    p {
+        font-family: $copy-font;
+        font-size: $font-baseline*3;
+        line-height: 1.3;
+        margin-top: $font-baseline*3;
+    }
+    .label {
+        font-family: $copy-font;
+        font-size: $font-baseline*2;
+        text-transform: uppercase;
+        margin-bottom: $font-baseline/2;
+    }
+    li {
+        border-bottom: none;
+        padding-bottom: 0;
     }
 }
 .big-quote {
@@ -151,6 +194,10 @@ section {
 .section--contact {
     background-color: darken($primary-color, 10%);
     border-color: $primary-color;
+}
+
+.contact-bar {
+    margin-top: $font-baseline*16;
 }
 .left {
     margin-right: auto;
