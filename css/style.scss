@@ -2,10 +2,11 @@
 $font-baseline: 8px;
 $primary-color: #2a4fd1;
 $secondary-color: #5CB246;
-$dark-color: #424554;
+//$dark-color: #424554;
+$dark-color: #2a4fd1;
 $blocky-font: 'Bowlby One',
 serif;
-$copy-font: 'Roboto',
+$copy-font: 'Libre Franklin',
 sans-serif;
 $screen-sm-min: 768px;
 $screen-xs-max: ($screen-sm-min - 1);
@@ -13,7 +14,7 @@ $screen-md-min: 992px;
 $screen-sm-max: ($screen-md-min - 1);
 $screen-lg-min: 1200px;
 $screen-md-max: ($screen-lg-min - 1);
-@import url('https://fonts.googleapis.com/css?family=Bowlby+One|Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One|Libre+Franklin:300');
 * {
     box-sizing: border-box;
 }
@@ -158,8 +159,8 @@ section {
     }
 }
 .section--work {
-    background-color: $primary-color;
-    border-color: $primary-color;
+    background-color: #ffffff;
+    border-color: #ffffff;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     //Makes work a grid
@@ -173,7 +174,7 @@ section {
         -ms-flex-direction: column;
         flex-direction: column;
     }
-    figure {
+    div {
         flex: 1;
         margin: 0;
         position: relative;
@@ -279,7 +280,7 @@ h3 {
 }
 p {
     font-family: $copy-font;
-    line-height: 1.3;
+    line-height: 1.4;
     margin-top: $font-baseline*3;
     @media screen and (max-width: $screen-sm-max) {
         font-size: $font-baseline*3;

@@ -1,21 +1,21 @@
-@import url("https://fonts.googleapis.com/css?family=Bowlby+One|Roboto:300");
-/* line 17, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+@import url("https://fonts.googleapis.com/css?family=Bowlby+One|Libre+Franklin:300");
+/* line 18, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 * {
   box-sizing: border-box; }
 
-/* line 22, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 23, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 body,
 html,
 section {
   min-height: 100%; }
 
-/* line 25, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 26, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 body {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 30, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 31, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 section {
   position: relative;
   min-height: 100%;
@@ -23,101 +23,101 @@ section {
   padding: 7%;
   padding: 7vw; }
 
-/* line 37, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 38, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .section--intro {
   background-color: #2a4fd1;
   border-color: #2a4fd1; }
   @media screen and (min-width: 992px) {
-    /* line 37, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 38, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     .section--intro {
       background-image: url(../images/intro-backround.jpg);
       background-size: cover; } }
   @media screen and (max-width: 991px) {
-    /* line 37, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 38, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     .section--intro {
       background-image: url(../images/intro-backround-mobile.jpg);
       background-size: cover; } }
 
-/* line 49, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 50, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .section--quote {
   background-color: #498d38;
   border-color: #5CB246; }
 
-/* line 53, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 54, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .section--summary {
-  background-color: #2c2e37;
-  border-color: #424554; }
+  background-color: #213fa7;
+  border-color: #2a4fd1; }
 
-/* line 57, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 58, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .main-copy {
   margin: 0 auto 0 auto;
   margin: 0 auto 0 auto; }
   @media screen and (max-width: 991px) {
-    /* line 57, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 58, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     .main-copy {
       width: 100%;
       margin: 0 auto 7vw auto; } }
   @media screen and (max-width: 767px) {
-    /* line 57, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 58, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     .main-copy {
       width: 100%;
       margin: 0 auto 7vw auto; } }
   @media screen and (min-width: 991px) {
-    /* line 57, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 58, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     .main-copy {
       max-width: 1100px; } }
   @media screen and (max-width: 991px) {
-    /* line 57, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 58, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     .main-copy {
       margin-top: 14%;
       margin-top: 14vw; } }
 
-/* line 76, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 77, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .summary-block {
   display: flex;
   flex-wrap: wrap; }
-  /* line 79, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+  /* line 80, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
   .summary-block .summary {
     width: 33.333%;
     margin-right: 7%;
     margin-bottom: 48px; }
     @media screen and (max-width: 991px) {
-      /* line 79, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+      /* line 80, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
       .summary-block .summary {
         width: 100%;
         margin-right: 0;
         border-bottom: 1px solid #cdcdcd;
         padding-bottom: 48px; } }
     @media screen and (max-width: 767px) {
-      /* line 79, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+      /* line 80, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
       .summary-block .summary {
         width: 100%;
         margin-right: 0;
         border-bottom: 1px solid #cdcdcd;
         padding-bottom: 48px; } }
-  /* line 96, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+  /* line 97, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
   .summary-block p {
-    font-family: "Roboto", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
     font-size: 24px;
     line-height: 1.3;
     margin-top: 24px; }
-  /* line 102, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+  /* line 103, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
   .summary-block .label {
-    font-family: "Roboto", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     margin-bottom: 4px; }
-  /* line 108, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+  /* line 109, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
   .summary-block li {
     border-bottom: none;
     padding-bottom: 0; }
 
-/* line 113, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 114, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .big-quote {
   width: 50%;
   color: #ffffff; }
   @media screen and (max-width: 991px) {
-    /* line 113, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 114, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     .big-quote {
       width: 86%;
       width: 86vw;
@@ -128,62 +128,62 @@ section {
       left: 7vw;
       margin-top: 14%;
       margin-top: 14vw; } }
-  /* line 127, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+  /* line 128, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
   .big-quote .quote {
     font-family: "Bowlby One", serif; }
     @media screen and (max-width: 991px) {
-      /* line 127, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+      /* line 128, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
       .big-quote .quote {
         font-size: 48px; } }
     @media screen and (max-width: 767px) {
-      /* line 127, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+      /* line 128, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
       .big-quote .quote {
         font-size: 32px; } }
     @media screen and (min-width: 991px) {
-      /* line 127, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+      /* line 128, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
       .big-quote .quote {
         font-size: 64px; } }
     @media screen and (min-width: 1200px) {
-      /* line 127, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+      /* line 128, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
       .big-quote .quote {
         font-size: 64px; } }
-  /* line 142, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+  /* line 143, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
   .big-quote .attribution {
     font-family: "Bowlby One", serif;
     font-size: 16px; }
 
-/* line 147, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 148, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .icon-bar {
   padding-top: 24px;
   border-top: 8px solid white;
   border-color: inherit;
   margin-top: 16px; }
-  /* line 152, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+  /* line 153, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
   .icon-bar .icons {
     margin-right: 16px; }
-    /* line 154, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 155, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     .icon-bar .icons img {
       width: 30px;
       height: 30px; }
 
-/* line 160, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 161, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .section--work {
-  background-color: #2a4fd1;
-  border-color: #2a4fd1;
+  background-color: #ffffff;
+  border-color: #ffffff;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   display: flex;
   flex-flow: row wrap;
   font-size: 0; }
   @media screen and (max-width: 767px) {
-    /* line 160, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 161, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     .section--work {
       -webkit-box-orient: vertical;
       -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column; } }
-  /* line 176, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-  .section--work figure {
+  /* line 177, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+  .section--work div {
     flex: 1;
     margin: 0;
     position: relative;
@@ -191,39 +191,39 @@ section {
     min-width: 400px;
     max-height: 600px; }
     @media screen and (max-width: 767px) {
-      /* line 176, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-      .section--work figure {
+      /* line 177, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+      .section--work div {
         width: 100%;
         height: auto;
         max-width: auto;
         min-width: auto; } }
-    /* line 189, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-    .section--work figure img {
+    /* line 190, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    .section--work div img {
       width: 100%;
       height: auto; }
 
-/* line 195, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 196, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .section--contact {
   background-color: #213fa7;
   border-color: #2a4fd1; }
 
-/* line 200, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 201, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .contact-bar {
   margin-top: 128px; }
 
-/* line 203, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 204, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .left {
   margin-right: auto; }
 
-/* line 206, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 207, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .right {
   margin-left: auto; }
   @media screen and (max-width: 767px) {
-    /* line 206, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 207, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     .right {
       margin-left: 0; } }
 
-/* line 212, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 213, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .two-column {
   -webkit-column-count: 2;
   -moz-column-count: 2;
@@ -231,104 +231,104 @@ section {
   column-gap: 7%;
   column-gap: 7vw; }
   @media screen and (max-width: 767px) {
-    /* line 212, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 213, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     .two-column {
       -webkit-column-count: 1;
       -moz-column-count: 1;
       column-count: 1; } }
 
-/* line 224, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 225, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .border-btm {
   padding-bottom: 16px;
   border-bottom: 8px solid white;
   border-color: inherit; }
 
-/* line 229, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 230, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .grey {
   background-color: #f3f3f3; }
 
-/* line 232, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 233, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .white {
   color: #ffffff; }
 
-/* line 235, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 236, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 .blue {
   border-color: #2a4fd1; }
 
-/* line 241, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 242, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 h1,
 h2,
 h3 {
   font-family: "Bowlby One", serif; }
 
-/* line 244, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 245, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 h1 {
   margin-bottom: 16px; }
   @media screen and (max-width: 991px) {
-    /* line 244, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 245, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     h1 {
       font-size: 48px; } }
   @media screen and (max-width: 767px) {
-    /* line 244, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 245, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     h1 {
       font-size: 48px; } }
   @media screen and (min-width: 991px) {
-    /* line 244, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 245, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     h1 {
       font-size: 64px; } }
 
-/* line 256, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 257, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 h2 {
   max-width: 50%;
   padding-bottom: 16px;
   border-bottom: 8px solid #2a4fd1; }
   @media screen and (max-width: 991px) {
-    /* line 256, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 257, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     h2 {
       font-size: 48px;
       margin-bottom: 24px; } }
   @media screen and (max-width: 767px) {
-    /* line 256, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 257, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     h2 {
       font-size: 32px;
       margin-bottom: 24px; } }
   @media screen and (min-width: 991px) {
-    /* line 256, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 257, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     h2 {
       font-size: 64px;
       margin-bottom: 48px; } }
   @media screen and (min-width: 1200px) {
-    /* line 256, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 257, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     h2 {
       font-size: 64px;
       margin-bottom: 48px; } }
 
-/* line 277, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 278, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 h3 {
   font-size: 32px; }
 
-/* line 280, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 281, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 p {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.3;
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 1.4;
   margin-top: 24px; }
   @media screen and (max-width: 991px) {
-    /* line 280, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 281, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     p {
       font-size: 24px; } }
   @media screen and (max-width: 767px) {
-    /* line 280, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 281, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     p {
       font-size: 24px; } }
   @media screen and (min-width: 991px) {
-    /* line 280, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+    /* line 281, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
     p {
       font-size: 32px; } }
 
-/* line 294, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 295, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 li {
   list-style: none;
-  font-family: "Roboto", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   line-height: 1.3;
   margin-top: 24px;
   font-size: 24px;
@@ -336,7 +336,7 @@ li {
   border-bottom: 8px solid white;
   border-color: inherit; }
 
-/* line 305, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
+/* line 306, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
 a :focus {
   border: none;
   outline: none; }
