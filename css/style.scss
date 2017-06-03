@@ -55,6 +55,10 @@ section {
     background-color: darken($dark-color, 10%);
     border-color: $dark-color;
 }
+.section--past-roles {
+    background-color: darken($secondary-color, 10%);
+    border-color: $secondary-color;
+}
 .main-copy {
     margin: 0 auto 0 auto;
     margin: 0 auto 0 auto;
@@ -99,12 +103,6 @@ section {
         font-size: $font-baseline*3;
         line-height: 1.3;
         margin-top: $font-baseline*3;
-    }
-    .label {
-        font-family: $copy-font;
-        font-size: $font-baseline*2;
-        text-transform: uppercase;
-        margin-bottom: $font-baseline/2;
     }
     li {
         border-bottom: none;
@@ -193,7 +191,7 @@ section {
         }
     }
 }
-.section--contact {
+.section--competencies {
     background-color: darken($primary-color, 10%);
     border-color: $primary-color;
 }
@@ -235,6 +233,10 @@ section {
 }
 .blue {
     border-color: $primary-color;
+}
+
+.green {
+    border-color: $secondary-color;
 }
 // Typography
 h1,
@@ -302,6 +304,12 @@ li {
     border-bottom: $font-baseline solid white;
     border-color: inherit;
 }
+.label {
+        font-family: $copy-font;
+        font-size: $font-baseline*2;
+        text-transform: uppercase;
+        margin-bottom: $font-baseline/2;
+    }
 a {
     :focus {
         border: none;
