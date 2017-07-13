@@ -243,19 +243,19 @@ section {
   border-color: inherit; }
 
 /* line 228, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-.grey {
+.bg-grey {
   background-color: #f3f3f3; }
 
 /* line 231, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-.white {
+.text-white {
   color: #ffffff; }
 
 /* line 234, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-.blue {
+.border-blue {
   border-color: #2a4fd1; }
 
 /* line 238, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
-.green {
+.border-green {
   border-color: #5CB246; }
 
 /* line 244, /Users/asims/GitHub/andrew-sims.github.io/css/style.scss */
