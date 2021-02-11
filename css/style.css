@@ -203,8 +203,9 @@ section {
 }
 
 .section--work {
-  background-color: #ffffff;
-  border-color: #ffffff;
+  padding: 0 7%;
+  background-color: #498d38;
+  border-color: #5CB246;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   display: -webkit-box;
