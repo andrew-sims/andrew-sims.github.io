@@ -204,18 +204,18 @@ section {
 .section--work {
   background-color: #498d38;
   border-color: #5CB246;
-  padding: 7vw 0;
+  padding: 7vw;
   margin: 0 0 0 0;
 }
 
 @media screen and (max-width: 991px) {
   .section--work {
-    padding: 14vw 0;
+    padding: 7vw;
   }
 }
 
 .work-container {
-  margin: 0 auto 7vw;
+  margin: 7vw auto 7vw;
   max-width: 1100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -262,12 +262,22 @@ section {
 }
 
 .work-text {
-  margin-bottom: 7vw;
+  margin: 7vw 0;
 }
 
 @media screen and (max-width: 767px) {
   .work-text {
-    margin-bottom: 14vw;
+    margin: 14vw 0;
+  }
+}
+
+.work-text h3 {
+  max-width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .work-text h3 {
+    max-width: 100%;
   }
 }
 
@@ -406,13 +416,13 @@ p {
 
 @media screen and (max-width: 991px) {
   p {
-    font-size: 24px;
+    font-size: 22.4px;
   }
 }
 
 @media screen and (max-width: 767px) {
   p {
-    font-size: 24px;
+    font-size: 22.4px;
   }
 }
 
@@ -434,7 +444,7 @@ li {
 }
 
 .label {
-  font-family: "Libre Franklin", sans-serif;
+  font-family: "Bowlby One", serif;
   font-size: 16px;
   text-transform: uppercase;
   margin-bottom: 4px;
