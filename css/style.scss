@@ -213,6 +213,13 @@ section {
 .section--competencies {
     background-color: darken($primary-color, 10%);
     border-color: $primary-color;
+
+    li {
+        // prevent content being broken across columns
+        -webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
 }
 
 .contact-bar {
